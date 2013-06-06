@@ -50,8 +50,8 @@ div.nav {
 	padding: 25px;
 	height: 25px;
 	width: 0 auto;
-	margin-left: 20px;
-	margin-right: 38px;
+	margin-left: 22px;
+	margin-right: 22px;
 }
 div.nav ul {
 	margin: 0;
@@ -79,21 +79,120 @@ div.nav ul li a {
 div.nav ul li a:hover {
 	color: #538AD7;
 } 
-#img {
+div.container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 11.2em;
-	padding-top:2px;
+	padding-top: 2px;
+}
+#img {
+	text-align: center;
 }
 div.largetext p {
-	font-family: 'CrimsonRoman';
-	font-size: 56px;
+	font-family: 'Crimson Text', serif;
+	font-size: 57px;
+	letter-spacing: -1px;
 	text-align: center;
-	margin: 20px 200px;
+	margin: 15px 220px;
 }
 div.smalltext p {
-	font-family: 'CrimsonRoman';
+	font-family: 'Crimson Text', serif;
 	font-size: 20px;
+	letter-spacing: -.8px;
 	text-align: center;
-	margin: 20px 220px;
+	margin: 25px 220px 30px;
+}
+div.badgesCont {
+	margin-left: auto;
+	margin-right: auto;
+	width: 625px;
+	height: 294px;
+}
+div #basecamp {
+	width: 160px;
+	height: 218px;
+	display: inline-block;
+	float: left;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	padding: 20px 10px 10px;
+	text-decoration: none;
+	font-family: 'Lucida Grande' 'Lucida Sans Unicode', Verdana; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+}
+div #basecamp .pic1 {
+	margin-left: 26px;
+}
+div #highrise {
+	width: 160px;
+	height: 218px;
+	display: inline-block;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	padding: 20px 10px 10px;
+	margin-left: 40px;
+	text-decoration: none;
+	font-family: 'Lucida Grande' 'Lucida Sans Unicode', Verdana; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+}
+div #highrise .pic2 {
+	margin-left: 26px;
+}
+div #campfire {
+	width: 160px;
+	height: 218px;
+	float: right;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	padding: 20px 10px 10px;
+	text-decoration: none;
+	font-family: 'Lucida Grande' 'Lucida Sans Unicode', Verdana; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+}
+div #campfire .pic3 {
+	margin-left: 26px;
+}
+div h3 {
+	font-size: 21px;
+	color: #369;
+	font-family: 'Lucida Grande';
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5em;
+}
+div h3 span {
+	text-decoration: underline;
+}
+div h3 sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: super;
+	font-family: 'Lucida Grande';
+	text-decoration: none;
+}
+div h4 {
+	font-size: 14px;
+	font-family: 'Lucida Grande';
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+	line-height: 2.5em;
+}
+div .blurb {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-family:'Lucida Grande';
+	text-align: center;
+}
+div.asterisk {
+	font-family: serif;
+	text-align: center;
+	font-size: 30px;
+	color: #848484;
+	letter-spacing: 4px;
 }
